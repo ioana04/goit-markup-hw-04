@@ -139,6 +139,7 @@ body {
 .studio-link {
     position: relative;
     color: #404bbf;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-link ::after {
@@ -180,6 +181,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
 }
 
 .contact-link:hover {
@@ -190,21 +193,14 @@ body {
     color: #404bbf;
 }
 
-.mail-link {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.phone-link {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .first-section {
-    background: url(../images/people-office.jpg) #2E2F42B2;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     padding: 188px 0;
-
+    max-width: 1440px;
 }
 
 .first-section .title {
@@ -236,7 +232,7 @@ body {
     padding: 16px 32px;
     margin: auto;
     border: none;
-
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .primary-button:hover {
