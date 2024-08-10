@@ -293,6 +293,10 @@ body {
     margin-bottom: 72px;
 }
 
+.svg-third-section {
+    gap: 24px;
+}
+
 .our-team-list {
     display: flex;
     gap: 24px;
