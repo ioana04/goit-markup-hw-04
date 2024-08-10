@@ -174,13 +174,13 @@ body {
 }
 
 .first-section {
-    background: url(../images/people-office.jpg),
-        #2E2F42 70%;
+    background: url(../images/people-office.jpg) #2E2F42B2;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     padding: 188px 0;
+
 }
 
 .first-section .title {
