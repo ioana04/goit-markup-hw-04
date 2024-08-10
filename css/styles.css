@@ -297,6 +297,13 @@ body {
     gap: 24px;
 }
 
+.social-links-portofolio {
+    width: Hug (232px)px;
+    height: Hug (40px)px;
+    gap: 24px;
+    opacity: 0px;
+    
+}
 .our-team-list {
     display: flex;
     gap: 24px;
