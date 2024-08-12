@@ -439,7 +439,15 @@ body {
     background-color: #2e2f42;
     padding: 100px 0;
 }
+.container-footer {
+    margin-right: 120px;
+    display: flex;
+    align-items: baseline;
+}
 
+.container-footer-logo{
+    margin-right: 120px;
+}
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -464,11 +472,6 @@ body {
     color: #F4F4FD;
 }
 
-.container-footer {
-    margin-right: 120px;
-    display: flex;
-    align-items: baseline;
-}
 
 
 .footer-paragraph {
