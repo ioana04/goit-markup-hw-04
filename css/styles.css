@@ -493,7 +493,7 @@ body {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #FFFFFF;
@@ -513,7 +513,7 @@ body {
 
 .svg-footer-social-media {
     fill: #f4f4fd;
-    ;
+
 }
 
 .svg-footer-link {
@@ -528,10 +528,10 @@ body {
     ;
 }
 
-.svg-footer-social-media.hover {
+.svg-footer-link.hover {
     background-color: #31d0aa;
 }
 
-.svg-footer-social-media.focus {
+.svg-footer-link.focus {
     background-color: #31d0aa;
 }
