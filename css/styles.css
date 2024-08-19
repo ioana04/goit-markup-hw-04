@@ -528,10 +528,10 @@ body {
     ;
 }
 
-.svg-footer-link.hover {
+.svg-footer-list.hover {
     background-color: #31d0aa;
 }
 
-.svg-footer-link.focus {
+.svg-footer-list.focus {
     background-color: #31d0aa;
 }
